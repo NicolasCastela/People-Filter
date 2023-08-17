@@ -1,0 +1,148 @@
+.bodytodo{
+    width: 100%;
+    height: 100vh;
+    background-color:  rgba(240, 240, 240, 0.461);
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.escritas{
+    width: 500px;
+    height: 500px;
+   
+    display: flex;
+    margin-top: 20px;
+    
+        gap: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10px;
+}
+.resultados{ 
+    
+  
+    display: flex;
+    
+   height: 100vh;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.titulo{
+width: 500px;
+height: 100px;
+align-items: flex-end;
+display: flex;
+justify-content: center;
+
+}
+.digite{
+    width: 350px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: gainsboro;
+    font-size: 20px;
+    text-align: center;
+}    
+
+.nomedecada{
+   
+    background-color: gainsboro;
+    width: 200px;
+    
+    margin-right: 10px;
+    margin-top: 15px;
+    
+    
+
+    
+}
+.botao123{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(96, 200, 158);
+    font-size: 17px;
+    font-weight: 700;
+}
+.botao123:active{
+    background-color: greenyellow;
+
+}
+
+.superiorresultados{
+
+    
+    width: 100%;
+   
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.boxsearchpeople{
+   margin-bottom: 15px; 
+    height: 40px;
+    width: 100%;
+}
+
+.searchpeople{
+    width: 605px;
+    height: 35px;
+    font-size: 17px;
+    padding-left: 10px;
+    border:3px solid gainsboro;
+    margin-top: 15px;
+}
+.botaodeselecionar{
+width: 200px;
+height: 50px;
+background-color: rgb(96, 200, 158);
+border: none;
+color: white;
+font-size: 16px;
+font-weight: 700;
+}
+
+.deletedesque{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: red;
+    
+}
+.cardperson{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    
+}
+
+.botaodofiltropessoa{
+    width: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.boxfiltrosoptions{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+    
+
+}
